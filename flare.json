@@ -1,0 +1,48 @@
+{
+  "name": "flare",
+  "type": "first",
+  "children": [{
+    "name": "analytics",
+    "type": "condition",
+    "children": [{
+
+        "name": "AgglomerativeCluster",
+        "type": "cible",
+        "size": 3938, "children": [{
+
+        "name": "AgglomerativeCluster4",
+        "size": 3938,
+        "type": "cible"
+      }, {
+        "name": "CommunityStructure7",
+        "type": "condition",
+        "size": 3812
+      }, {
+        "name": "MergeEdge",
+        "type": "condition",
+        "size": 743
+      }]
+      }, {
+        "name": "CommunityStructure2",
+      "type": "condition",
+        "size": 3812
+      }, {
+        "name": "HierarchicalCluster2",
+      "type": "condition",
+        "size": 6714
+      }, {
+        "name": "MergeEdge2",
+        "type": "cible",
+        "size": 743,
+      "children": [{
+
+        "name": "AgglomerativeCluster3",
+        "type": "condition",
+        "size": 3938
+      }, {
+        "name": "CommunityStructure3",
+        "type": "cible",
+        "size": 3812
+      }]
+      }]
+    }]}

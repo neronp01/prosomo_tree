@@ -1,0 +1,216 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*
+Note: any .css or .scss files included in the 'styles' directory
+will be correctly compiled during `gulp serve` and `gulp`
+ */
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+}
+.node {
+  cursor: pointer;
+}
+
+.overlay{
+  background-color:#212121;
+}
+
+.node circle {
+  fill: #616161;
+}
+
+.node text {
+  fill: #03A9F4;
+  font-size:16px;
+  font-family:sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+.templink {
+  fill: none;
+  stroke: #03A9F4;
+  stroke-width: 2px;
+}
+
+.ghostCircle.show{
+  display:block;
+}
+
+.ghostCircle, .activeDrag .ghostCircle{
+  display: none;
+}
+.nodeText{
+  display: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+.tree-container{
+  padding: 2px;
+  background-color: #424242;
+}
+.header{
+  height: 100px;
+}
+
+.material-icons{
+
+  color:#424242
+}
+
+.menueButton{
+  position: relative;
+  right: -800px;
+  margin-top: 5px;
+}
+
+ul{
+  background-color: #212121;
+
+
+}
+li{
+  color: #616161;
+  width: 150px;
+}
+.mdl-menu__item{
+  color: #616161;
+}
+
+.ul:hover{
+  background-color: #212121;
+}
+.configuration{
+  color: #616161;
+margin-left: 25%;
+
+}
+.config_li{
+  margin-bottom: 10px;
+}
+.mdl-menu__item{
+  width: 100%;
+margin: 0px;
+}
+.mdl-menu__item:hover{
+  background-color: #212121;
+}
+
+.mdl-js-checkbox{
+  color: #03A9F4;
+  font-size: small;
+}
+#list-checkbox-1{
+  font-size: small;
+}
+
+.mdl-checkbox{
+ color: #03A9F4;
+}
+
+#list-checkbox-1{
+
+  margin-left: 20px;
+}
+
+.checkbox{
+  float: right;
+  margin-right: 15px;
+}
+
+.circleColor{
+  float: right;
+  margin-right: 23px;
+  margin-top: 15px;
+}
+
+.container_undate{
+  position: absolute;
+  display: none;
+}
+.container_undateform{
+  border-style: solid;
+  border-color: #212121;
+  border-width: 2px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container_undateform_item{
+  margin: 5px;
+}
+
+.p_explication{
+  position:relative;
+  top:12px;
+  background-color: #616161;
+  height: 20px;
+  width: 180px;
+  text-align: center;
+  margin-left: 10px;
+  border-left-style: solid;
+  border-left-color: #212121;
+  border-left-width: 2px;
+  border-right-style: solid;
+  border-right-color: #212121;
+  border-right-width: 2px;
+
+}
+
+.add_rule{
+  border-style: solid;
+  border-color: #212121;
+  border-width: 2px;
+}
+.p_explication_add{
+  position:relative;
+  top:12px;
+  background-color: #616161;
+  height: 20px;
+  width: 120px;
+  text-align: center;
+  margin-left: 10px;
+  border-left-style: solid;
+  border-left-color: #212121;
+  border-left-width: 2px;
+  border-right-style: solid;
+  border-right-color: #212121;
+  border-right-width: 2px;
+}
+.titre_change_node{
+  font-family: "Times New Roman", Times, serif;
+}
+.p_text{
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+
+}
